@@ -25,7 +25,7 @@ const Header = () => {
             <p className="text-xs sm:text-sm">Hello, {user.username}</p>
             <button
               onClick={handleLogout}
-              className="btn btn-xs btn-outline btn-primary"
+              className="btn btn-xs btn-outline btn-primary uppercase"
             >
               logout
             </button>
